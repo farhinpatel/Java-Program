@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+      //  Pizza basePizza = new Pizza(true);
+      //  basePizza.addExtraToppings();
+      //  basePizza.addExtraCheese();
+      //  basePizza.takeAway();
+      //  basePizza.getBill();
+
+        DeluxPizza dp = new DeluxPizza(false);
+        dp.takeAway();
+        dp.getBill();
+    }
+}
+//Output of pizza bill generator
+OUTPUT
+Pizza: 400
+Extra cheese added: 100
+Extra Toppings added: 150
+Extra cheese added: 20
+Bill: 670
